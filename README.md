@@ -1,8 +1,8 @@
-# Shopets — PDV + E-commerce
+# Expandeaê — do PDV ao e-commerce
 
-Plataforma completa de **ponto de venda (PDV) e e-commerce** construída em Laravel 12 + React 19, com arquitetura orientada a domínio (DDD), emissão de **NF-e**, integração de frete e conciliação bancária.
+O **Expandeaê** leva a loja física para a internet: o mesmo estoque, catálogo e caixa do **ponto de venda (PDV)** alimentam a **loja online**. Construído em Laravel 12 + React 19, com arquitetura orientada a domínio (DDD), emissão de **NF-e**, integração de frete e conciliação bancária.
 
-![CI](https://github.com/cruztechdevelopers/shopets/actions/workflows/tests.yml/badge.svg)
+![CI](https://github.com/josesousacruz/pdv-ecommerce/actions/workflows/tests.yml/badge.svg)
 ![PHP](https://img.shields.io/badge/PHP-8.2%2B-777BB4?logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-12-FF2D20?logo=laravel&logoColor=white)
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
@@ -51,8 +51,8 @@ app/
 ## Rodando localmente
 
 ```bash
-git clone https://github.com/cruztechdevelopers/shopets.git
-cd shopets
+git clone https://github.com/josesousacruz/pdv-ecommerce.git
+cd pdv-ecommerce
 cp .env.example .env
 composer install && npm install
 php artisan key:generate
